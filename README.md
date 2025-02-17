@@ -10,12 +10,12 @@ This project detects yoga poses in real-time and provides corrective feedback to
 - **User-friendly Interface** for real-time corrections.
 
 ## Technologies Used
-- Python, MediaPipe, OpenCV, NumPy, Pandas, Matplotlib, Pickle, pyttsx3
+Python, MediaPipe, OpenCV, NumPy, Pandas, Matplotlib, Pickle, pyttsx3
 
 ## Data & Model
 - Collected **55 videos** covering five yoga poses.
-- Extracted landmarks stored in **CSV format**.
-- Trained **Random Forest, Ridge Classifier, Logistic Regression, Gradient Boosting** models.
+- Extracted landmarks and stored in **CSV format**.
+- Trained **Random Forest, Ridge Classifier, Logistic Regression, Gradient Boosting** machine learning models using the extracted landmarks.
 - Achieved **95% accuracy** in pose classification.
 
 ## Feedback Mechanism
@@ -23,5 +23,4 @@ This project detects yoga poses in real-time and provides corrective feedback to
 - Provided real-time **visual and voice feedback** for corrections.
 
 ## Future Enhancements
-- Expand pose database.
-- Develop a mobile application.
+- Expanding pose database and development of a mobile or web application
